@@ -1,1 +1,1 @@
-# Se-o6ComportamentoDeMem-riaArraysListas
+# Secao6ComportamentoDeMemoriaArraysListas
