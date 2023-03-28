@@ -1,0 +1,15 @@
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetores\ExercicioVetores\bin\Debug\net6.0\ExercicioVetores.exe
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetores\ExercicioVetores\bin\Debug\net6.0\ExercicioVetores.deps.json
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetores\ExercicioVetores\bin\Debug\net6.0\ExercicioVetores.runtimeconfig.json
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetores\ExercicioVetores\bin\Debug\net6.0\ExercicioVetores.dll
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetores\ExercicioVetores\bin\Debug\net6.0\ExercicioVetores.pdb
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetores\ExercicioVetores\obj\Debug\net6.0\ExercicioVetores.csproj.AssemblyReference.cache
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetores\ExercicioVetores\obj\Debug\net6.0\ExercicioVetores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetores\ExercicioVetores\obj\Debug\net6.0\ExercicioVetores.AssemblyInfoInputs.cache
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetores\ExercicioVetores\obj\Debug\net6.0\ExercicioVetores.AssemblyInfo.cs
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetores\ExercicioVetores\obj\Debug\net6.0\ExercicioVetores.csproj.CoreCompileInputs.cache
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetores\ExercicioVetores\obj\Debug\net6.0\ExercicioVetores.dll
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetores\ExercicioVetores\obj\Debug\net6.0\refint\ExercicioVetores.dll
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetores\ExercicioVetores\obj\Debug\net6.0\ExercicioVetores.pdb
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetores\ExercicioVetores\obj\Debug\net6.0\ExercicioVetores.genruntimeconfig.cache
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetores\ExercicioVetores\obj\Debug\net6.0\ref\ExercicioVetores.dll

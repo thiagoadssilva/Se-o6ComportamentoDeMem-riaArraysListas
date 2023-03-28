@@ -1,0 +1,15 @@
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetorClasse\ExercicioVetorClasse\obj\Debug\net6.0\ExercicioVetorClasse.csproj.AssemblyReference.cache
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetorClasse\ExercicioVetorClasse\obj\Debug\net6.0\ExercicioVetorClasse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetorClasse\ExercicioVetorClasse\obj\Debug\net6.0\ExercicioVetorClasse.AssemblyInfoInputs.cache
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetorClasse\ExercicioVetorClasse\obj\Debug\net6.0\ExercicioVetorClasse.AssemblyInfo.cs
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetorClasse\ExercicioVetorClasse\obj\Debug\net6.0\ExercicioVetorClasse.csproj.CoreCompileInputs.cache
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetorClasse\ExercicioVetorClasse\bin\Debug\net6.0\ExercicioVetorClasse.exe
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetorClasse\ExercicioVetorClasse\bin\Debug\net6.0\ExercicioVetorClasse.deps.json
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetorClasse\ExercicioVetorClasse\bin\Debug\net6.0\ExercicioVetorClasse.runtimeconfig.json
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetorClasse\ExercicioVetorClasse\bin\Debug\net6.0\ExercicioVetorClasse.dll
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetorClasse\ExercicioVetorClasse\bin\Debug\net6.0\ExercicioVetorClasse.pdb
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetorClasse\ExercicioVetorClasse\obj\Debug\net6.0\ExercicioVetorClasse.dll
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetorClasse\ExercicioVetorClasse\obj\Debug\net6.0\refint\ExercicioVetorClasse.dll
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetorClasse\ExercicioVetorClasse\obj\Debug\net6.0\ExercicioVetorClasse.pdb
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetorClasse\ExercicioVetorClasse\obj\Debug\net6.0\ExercicioVetorClasse.genruntimeconfig.cache
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioVetorClasse\ExercicioVetorClasse\obj\Debug\net6.0\ref\ExercicioVetorClasse.dll
