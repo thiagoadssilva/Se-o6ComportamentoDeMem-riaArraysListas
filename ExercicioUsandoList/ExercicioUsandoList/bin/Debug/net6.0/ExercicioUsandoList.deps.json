@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ExercicioUsandoList/1.0.0": {
+        "runtime": {
+          "ExercicioUsandoList.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ExercicioUsandoList/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

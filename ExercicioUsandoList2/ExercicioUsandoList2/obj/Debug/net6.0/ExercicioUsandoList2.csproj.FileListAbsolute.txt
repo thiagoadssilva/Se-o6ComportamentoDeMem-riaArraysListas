@@ -1,0 +1,15 @@
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioUsandoList2\ExercicioUsandoList2\bin\Debug\net6.0\ExercicioUsandoList2.exe
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioUsandoList2\ExercicioUsandoList2\bin\Debug\net6.0\ExercicioUsandoList2.deps.json
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioUsandoList2\ExercicioUsandoList2\bin\Debug\net6.0\ExercicioUsandoList2.runtimeconfig.json
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioUsandoList2\ExercicioUsandoList2\bin\Debug\net6.0\ExercicioUsandoList2.dll
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioUsandoList2\ExercicioUsandoList2\bin\Debug\net6.0\ExercicioUsandoList2.pdb
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioUsandoList2\ExercicioUsandoList2\obj\Debug\net6.0\ExercicioUsandoList2.csproj.AssemblyReference.cache
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioUsandoList2\ExercicioUsandoList2\obj\Debug\net6.0\ExercicioUsandoList2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioUsandoList2\ExercicioUsandoList2\obj\Debug\net6.0\ExercicioUsandoList2.AssemblyInfoInputs.cache
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioUsandoList2\ExercicioUsandoList2\obj\Debug\net6.0\ExercicioUsandoList2.AssemblyInfo.cs
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioUsandoList2\ExercicioUsandoList2\obj\Debug\net6.0\ExercicioUsandoList2.csproj.CoreCompileInputs.cache
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioUsandoList2\ExercicioUsandoList2\obj\Debug\net6.0\ExercicioUsandoList2.dll
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioUsandoList2\ExercicioUsandoList2\obj\Debug\net6.0\refint\ExercicioUsandoList2.dll
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioUsandoList2\ExercicioUsandoList2\obj\Debug\net6.0\ExercicioUsandoList2.pdb
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioUsandoList2\ExercicioUsandoList2\obj\Debug\net6.0\ExercicioUsandoList2.genruntimeconfig.cache
+C:\Users\thiag\OneDrive\Documentos\ProjetosGit\Secao6ComportamentoDeMemoriaArraysListas\ExercicioUsandoList2\ExercicioUsandoList2\obj\Debug\net6.0\ref\ExercicioUsandoList2.dll
