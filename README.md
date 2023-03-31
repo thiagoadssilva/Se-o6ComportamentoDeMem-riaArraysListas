@@ -157,5 +157,158 @@ Aqui está um exemplo de como criar um vetor de objetos em C# com 3 posições, 
         }
 
 
+## Modificador de Parametros ‘params’
+
+Nesse exemplo, MetodoComParams é um método que recebe um número variável de inteiros como argumentos. O modificador params é usado antes do tipo de argumento para indicar que ele pode receber vários valores, separados por vírgula. Dentro do método, usamos um loop foreach para percorrer a lista de números e imprimir cada um na tela. Ao chamar esse método, você pode passar qualquer número de argumentos inteiros. Por exemplo:
+
+    MetodoComParams(1, 2, 3);
+    MetodoComParams(4, 5, 6, 7);
+
+Em ambos os casos, o método será chamado com um array de inteiros contendo os valores especificados. O modificador params torna a chamada do método mais conveniente e legível do que a passagem de um array explícito. É importante lembrar que o modificador params só pode ser usado com o último parâmetro de um método e não pode ser combinado com outros modificadores de parâmetros, como out ou ref. Além disso, um método pode ter apenas um parâmetro params.
+
+## Modificador de Parametros ‘Out’ e ‘Ref‘
+    Está aqui só para conhecimento, pois essa prática não está sendo mais usada 
+    
+Os modificadores out e ref são usados para passar parâmetros por referência em C#. O modificador ref é usado para passar um parâmetro por referência e permite que um método altere o valor do argumento passado. Aqui está um exemplo simples:
+
+    public void MetodoComRef(ref int numero) {
+        numero = numero * 2;
+    }
+
+Nesse exemplo, MetodoComRef é um método que recebe um argumento int passado por referência. Isso significa que, se o valor do parâmetro for alterado dentro do método, o valor original também será alterado após a conclusão do método.
+Para chamar esse método, você precisa passar uma variável int como argumento e usar a palavra-chave ref antes dela:
+
+    int numero = 10;
+    MetodoComRef(ref numero);
+    Console.WriteLine(numero); // Saída: 20
+
+A saída deste exemplo será 20, porque o valor de numero foi dobrado dentro do método MetodoComRef.
+O modificador out é semelhante ao ref, mas é usado para retornar valores de um método, em vez de apenas passar argumentos. Aqui está um exemplo simples:
+
+    public void MetodoComOut(out int resultado) {
+        resultado = 10 + 5;
+    }
+
+Nesse exemplo, MetodoComOut é um método que retorna um valor int usando o modificador out. Isso significa que o método não pode ter um valor de retorno explícito. O valor do resultado é atribuído dentro do método e pode ser acessado após a conclusão do método.
+Para chamar esse método, você precisa passar uma variável int como argumento e usar a palavra-chave out antes dela:
+
+    int resultado;
+    MetodoComOut(out resultado);
+    Console.WriteLine(resultado); // Saída: 15
+
+A saída deste exemplo será 15, porque o valor de resultado foi definido como 15 dentro do método MetodoComOut. Observe que você não precisa atribuir um valor inicial a resultado antes de passá-lo para o método MetodoComOut, porque o modificador out garante que o valor seja atribuído dentro do método antes de ser acessado fora dele.
+
+## Boxing e unboxing.
+
+Boxing e unboxing são conceitos em C# que estão relacionados à conversão de valores entre tipos de valor e tipos de referência. Em resumo, boxing é a conversão de um tipo de valor em um objeto de tipo de referência, e unboxing é a conversão do objeto de tipo de referência de volta ao tipo de valor original.
+Boxing ocorre quando um valor de um tipo de valor (como int, float, bool, etc.) é atribuído a uma variável de tipo de referência (como object), ou quando é passado como um argumento para um método que espera um objeto de tipo de referência. Quando isso acontece, o valor é encapsulado em um objeto de tipo de referência e armazenado na memória heap. Por exemplo:
+
+    int num = 42;
+    object obj = num; // boxing ocorre aqui
+
+Neste exemplo, num é uma variável de tipo de valor que contém o valor 42. Quando num é atribuído a obj, o valor é encapsulado em um objeto de tipo de referência e armazenado na memória heap. obj agora contém uma referência ao objeto que encapsula o valor de num.
+Unboxing é o processo inverso, em que um objeto de tipo de referência que contém um valor de tipo de valor é convertido de volta em seu tipo de valor original. Isso ocorre quando um objeto de tipo de referência é atribuído a uma variável de tipo de valor, ou quando é passado como um argumento para um método que espera um valor de tipo de valor. Por exemplo:
+
+    int num = 0;
+    object obj = 42;
+    num = (int)obj; // unboxing ocorre aqui
+
+Neste exemplo, obj contém uma referência a um objeto de tipo de referência que encapsula o valor 42. Quando essa referência é atribuída a num e convertida de volta em um valor de tipo de valor, o processo de unboxing ocorre.
+Embora a conversão de valores entre tipos de valor e tipos de referência seja útil em certas situações, como a passagem de parâmetros para métodos que esperam objetos de tipo de referência, ela também pode ter um impacto negativo no desempenho do programa. Portanto, é importante usar boxing e unboxing com cuidado e apenas quando necessário.
+
+## Estrutura de dados LIST
+
+A List é uma estrutura de dados de lista dinâmica em C#. Isso significa que ela permite armazenar e manipular um conjunto de elementos de tamanho variável, sem precisar especificar um tamanho fixo para a lista.
+Algumas características da List incluem:
+
+* Permite adicionar e remover elementos de forma dinâmica;
+* Pode armazenar elementos de qualquer tipo de dado, desde que seja compatível com o tipo especificado na criação da lista;
+* Possui métodos para realizar diversas operações comuns em listas, como ordenação, busca e filtragem;
+* Armazena seus elementos de forma contígua na memória, o que pode proporcionar um melhor desempenho em algumas operações.
+
+Para utilizar a List, é preciso importar o namespace System.Collections.Generic. A criação de uma lista pode ser feita da seguinte forma:
+using System.Collections.Generic;
+
+    // Cria uma lista de inteiros vazia
+    List<int> numeros = new List<int>();
+
+A partir daí, é possível adicionar e remover elementos da lista, acessar elementos individuais por meio de índices, ordenar a lista e executar outras operações úteis. Por exemplo:// Adiciona alguns elementos à lista
+
+    numeros.Add(10);
+    numeros.Add(20);
+    numeros.Add(30);
+
+    // Remove o elemento "20" da lista
+    numeros.Remove(20);
+
+    // Acessa o primeiro elemento da lista
+    int primeiro = numeros[0];
+    // Ordena a lista em ordem crescente
+
+    numeros.Sort();
+
+A List é uma das estruturas de dados mais utilizadas em C#, devido à sua flexibilidade e facilidade de uso. Ela é especialmente útil quando não se sabe de antemão quantos elementos serão armazenados na lista, ou quando se precisa adicionar e remover elementos com frequência.
+
+## Matrizes
+
+Em C#, uma matriz é uma coleção multidimensional de valores do mesmo tipo. As matrizes são usadas para armazenar e manipular conjuntos de dados que têm uma estrutura de grade, como tabelas de dados ou imagens.
+Uma matriz é definida por sua dimensão, que especifica o número de linhas e colunas. Por exemplo, uma matriz bidimensional tem duas dimensões: linhas e colunas. As matrizes em C# são indexadas com base em zero, o que significa que o primeiro elemento está na posição [0,0].
+Aqui está um exemplo de como criar e usar uma matriz em C#:
+
+    // cria uma matriz bidimensional de 3x3
+    int[,] matriz = new int[3, 3];
+
+    // atribui valores aos elementos da matriz
+    matriz[0, 0] = 1;
+    matriz[0, 1] = 2;
+    matriz[0, 2] = 3;
+    matriz[1, 0] = 4;
+    matriz[1, 1] = 5;
+    matriz[1, 2] = 6;
+    matriz[2, 0] = 7;
+    matriz[2, 1] = 8;
+    matriz[2, 2] = 9;
+
+    // exibe os valores da matriz
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 3; j++)
+        {
+            Console.Write(matriz[i, j] + " ");
+        }
+        Console.WriteLine();
+    }
+
+Nesse exemplo, criamos uma matriz bidimensional de 3x3 usando a palavra-chave new. Em seguida, atribuímos valores aos elementos da matriz usando a sintaxe [linha, coluna]. Finalmente, usamos dois loops for para percorrer todos os elementos da matriz e exibi-los na tela.
+Observe que, embora as matrizes sejam úteis para armazenar dados em uma estrutura de grade, elas podem ser limitantes em alguns casos. Por exemplo, se precisarmos adicionar ou remover elementos de uma matriz, precisaremos redefini-la completamente, o que pode ser ineficiente e inconveniente. Nesses casos, pode ser mais útil usar uma lista ou outra estrutura de dados mais flexível
+
+Algumas propriedades comuns de matrizes em C# incluem:
+Length: retorna o número total de elementos na matriz.
+GetLength(int dimensão): retorna o tamanho da dimensão especificada da matriz.
+Rank: retorna o número de dimensões da matriz.
+
+Essas propriedades são úteis para determinar o tamanho e a forma de uma matriz e podem ser usadas em combinação com loops for para percorrer todos os elementos da matriz. Por exemplo, a propriedade Length pode ser usada para percorrer todos os elementos de uma matriz unidimensional, como este:
+
+    int[] numeros = new int[5] { 1, 2, 3, 4, 5 };
+
+    for (int i = 0; i < numeros.Length; i++)
+    {
+        Console.WriteLine(numeros[i]);
+    }
+
+Enquanto a propriedade GetLength() pode ser usada para percorrer elementos de matrizes multidimensionais, como este exemplo:
+
+    int[,] matriz = new int[3, 3] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+
+    for (int i = 0; i < matriz.GetLength(0); i++)
+    {
+        for (int j = 0; j < matriz.GetLength(1); j++)
+        {
+            Console.Write(matriz[i, j] + " ");
+        }
+        Console.WriteLine();
+    }
+
+Nesse exemplo, usamos a propriedade GetLength() para determinar o tamanho das duas dimensões da matriz e, em seguida, usamos dois loops for para percorrer todos os elementos da matriz e exibi-los na tela.
 
 
