@@ -1,4 +1,4 @@
-# Resumo dos estudos
+# Comportamento de memória, arrays, listas
 
 A pilha é utilizada para armazenar variáveis locais e informações de controle de fluxo, enquanto o heap é uma área de memória dinâmica utilizada para armazenar objetos complexos alocados durante a execução do programa. A pilha é organizada em uma estrutura LIFO, enquanto o heap é organizado em uma árvore binária.
 Em resumo, a principal diferença entre o heap e a pilha é que a pilha é usada para armazenar dados que são usados ​​pelo programa em um determinado momento, enquanto o heap é usado para armazenar objetos mais complexos que precisam de uma alocação mais dinâmica. Além disso, a alocação de memória na pilha é gerenciada automaticamente pelo sistema operacional, enquanto no heap, é responsabilidade do programador alocar e desalocar a memória necessária.
